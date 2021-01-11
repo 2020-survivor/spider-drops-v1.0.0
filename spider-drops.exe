@@ -1,0 +1,221 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+//////////////////////////////////////
+////// int
+int opcion1M1;
+//////////////////////////////////////
+////// Funcion Declaracion
+void msgInicio();
+void opcionesM1();
+void borrarTerminal();
+void sMenu1();
+//////////////////////////////////////
+////// Funcion String [home]
+string C1Home = "TX9XD-98N7V-6WMQ6-BX7FG-H8Q99";
+string C2Home = "YTMG3-N6DKC-DKB77-7M9GH-8HVX7";
+string C3Home = "BT79Q-G7N6G-PGBYW-4YWX6-6F4BT";
+string C4Home = "3KHY7-WNT83-DGQKR-F7HPR-844BM";
+string C5Home = "NBTWJ-3DR69-3C4V8-C26MC-GQ9M6";
+//////////////////////////////////////
+////// Funcion String [pro]
+string C1Pro = "YYVX9-NTFWV-6MDM3-9PT4T-4M68B"; // Enterprise
+string C2Pro = "NBTWJ-3DR69-3C4V8-C26MC-GQ9M6"; // S (Lean)
+string C3Pro = "VK7JG-NPHTM-C97JM-9MPGT-3V66T"; // Pro build 
+string C5Pro = "6TP4R-GNPTD-KYYHQ-7B7DP-J447Y"; // Professional Education
+string C6Pro = "2WH4N-8QGBV-H22JP-CT43Q-MDWWJ"; // Education N
+string C7Pro = "33QT6-RCNYF-DXB4F-DGP7B-7MHX9"; // Core Key
+string C8Pro = "W269N-WFGWX-YVC9B-4J6C9-T83GX"; // Pro 2020
+string C9Pro = "NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J"; // Workstations
+string C10Pro = "92NFX-8DJQP-P6BBQ-THF9C-7CG2H"; // LTSC
+//////////////////////////////////////
+////// Funcion String [office pro plus]
+string C1Off = "6KTFN-PQH9H T8MMB-YG8K4-367TX";
+string C2Off = "KBDNM-R8CD9-RK366-WFM3X-C7GXK";
+string C3Off = "KBDNM-R8CD9-RK366-WFM3X-C7GXK";
+string C5Off = "MH2KN-96KYR-GTRD4-KBKP4-Q9JP9";
+string C6Off = "2MNJP-QY9KX-MKBKM-9VFJ2-CJ9KK";
+//////////////////////////////////////
+////// Funcion String [antivirus norton]
+string C1Nor = "VH9VFRM8BBHKVH3DWV7RBBGJ";
+string C2Nor = "DFLQW-SFJLS-DFJLEI-DFKSIE";
+string C3Nor = "DFKSR-DFJ3K-DFJLSI-DFJLSS";
+string C5Nor = "CVBH4-DFJ6K-DFJLK-DFJKSI";
+string C6Nor = "FKSHE-DFKS-FDKSJ-DFJKSH"; // Antivirus Serial Key 2021
+
+string C1Nor2 = "DFLQW-SFJLS-DFJLEI-DFKSIE";
+string C2Nor2 = "DFKSR-DFJ3K-DFJLSI-DFJLSS";
+string C3Nor2 = "CVBH4-DFJ6K-DFJLK-DFJKSI";
+string C5Nor2 = "FKSHE-DFKS-FDKSJ-DFJKSH"; // Antivirus License Key 2021
+
+string C1Nor3 = "ALQJDB328FNE9ALNBHVJD89I";
+string C2Nor3 = "NSX02IRHNFD8JRYEMAZXCV2A";
+string C3Nor3 = "JANZM10ORLDV37GJRNE8A9DO";
+string C5Nor3 = "JFKEUFSJUIOMBDGET64AAZXPO";
+string C6Nor3 = "UTF73YZUIRIORODNJBV785XFG";  // Antivirus Product Key 
+
+string C1Nor4 ="J8CP8-Q9BGR-8XM46-BHQHK-VVK74";
+string C2Nor4 ="JBKC6-4RYXF-WDGDR-R3B9P-38FT3";
+string C3Nor4 ="JVK42-B2PFW-744F2-DWTQH-9P8Y8";
+string C5Nor4 ="JR7HP-PDBW2-WRHG7-WGDVM-HV6WM";
+string C6Nor4 ="JV3TF-B8FC4-WJGFH-WX6CH-QKWPK";
+string C7Nor4 ="JW29G-D82FP-RCG66-KJJGG-DFXK6";
+string C8Nor4 ="J4KF6-2867M-VYYFB-XTP3V-WQVYK";
+string C9Nor4 ="JCC9F-MWY8G-HW84W-9DKY7-MDWCG";
+string C10Nor4 ="JF4QG-Q2FGQ-8RR94-MRYRV-84HYY"; // Norton 90 days
+
+
+//////////////////////////////////////
+////// Funcion Main
+int main(){
+
+    msgInicio();
+    opcionesM1(); system("pause");
+    sMenu1();
+
+
+}
+//////////////////////////////////////
+////// Funcion Definicion
+void msgInicio(){
+
+    cout << "\n\n\n\n\n\n\n\n" << endl;
+    cout << " x/ Spider Terminal (Demo) " << endl;
+    cout << " x/ Status: Online " << endl;
+    cout << "\n " << endl;
+}
+
+void opcionesM1(){
+
+    cout << "===============================" << endl;
+    cout << " ******     OPTIONS      ******" << endl;
+    cout << "===============================" << endl;
+    cout << "=                             =" << endl;
+    cout << "=      1. W10 Keys            =" << endl;
+    cout << "=      2. Office Keys         =" << endl;
+    cout << "=      3. Antivirus           =" << endl;
+    cout << "=     97. Version             =" << endl;
+    cout << "=     98. Credits             =" << endl;
+    cout << "=     99. Exit                =" << endl;
+    cout << "=                             =" << endl;
+    cout << "=                             =" << endl;
+    cout << "===============================" << endl;
+    cout << "===============================" << endl;                        
+    cout << "======= >> Select:            =" << endl;                           
+    cin >> opcion1M1;
+}
+
+void borrarTerm(){
+
+    system("clear");
+}
+
+void sMenu1(){
+
+    switch (opcion1M1){
+
+        case 1: 
+            borrarTerm();
+            cout << "==========================================================" << endl;
+            cout << "=====    ***                  H0ME                *** ====" << endl;
+            cout << "==========================================================" << endl;
+            cout << "***** W10 Home:" << C1Home << "\n" << endl;
+            cout << "***** W10 Home - multi:" << C2Home << "\n" << endl;
+            cout << "***** W10 Home - single:" << C3Home << "\n" << endl;
+            cout << "***** W10 Home N:" << C4Home << "\n" << endl;
+            cout << "***** W10 Home S:" << C5Home << "\n" << endl;
+            cout << "==========================================================" << endl;
+            cout << "==========================================================" << endl;
+            cout << "\n\n" << endl;
+            cout << "==========================================================" << endl;
+            cout << "=====    ***                  PR0                 *** ====" << endl;
+            cout << "==========================================================" << endl;
+            cout << "***** W10 Enterprise G:" << C1Pro << "\n" << endl;
+            cout << "***** W10 S (Lean):" << C2Pro << "\n" << endl;
+            cout << "***** W10 Pro build:" << C3Pro << "\n" << endl;
+            cout << "***** W10 LTSC:" << C10Pro << "\n" << endl;   
+            cout << "***** W10 Pro N:" << C5Pro << "\n" << endl;  
+            cout << "***** W10 Pro 2020:" << C8Pro << "\n" << endl;
+            cout << "***** Core Key:" << C7Pro << "\n" << endl;  
+            cout << "***** W10 Education N:" << C6Pro << "\n" << endl;                      
+            cout << "***** W10 Workstation:" << C9Pro << "\n" << endl;  
+            break;
+        case 2: 
+            borrarTerm();
+            cout << "==========================================================" << endl;
+            cout << "=====    ***  Office 365 Pro Plus Product Key   ***   ====" << endl;
+            cout << "==========================================================" << endl;
+            cout << "===== Key 1: " << C1Off << endl;
+            cout << "===== Key 2: " << C2Off << endl;
+            cout << "===== Key 3: " << C3Off << endl;
+            cout << "===== Key 4: " << C5Off << endl;
+            cout << "===== Key 5: " << C6Off << endl;
+            break;
+        case 3:
+            borrarTerm();
+            cout << "==========================================================" << endl;
+            cout << "=====    ***             ANTIVIRUS              ***   ====" << endl;
+            cout << "==========================================================" << endl;
+            cout << "***** Norton Antivirus Serial Key 2021:" << endl;
+            cout << "        ---> " << C1Nor << endl;
+            cout << "        ---> " << C2Nor << endl;
+            cout << "        ---> " << C3Nor << endl;
+            cout << "        ---> " << C5Nor << endl;
+            cout << "        ---> " << C6Nor << endl;
+            cout << "***** Norton Antivirus License Key 2021:" << endl;
+            cout << "        ---> " << C1Nor2 << endl;
+            cout << "        ---> " << C2Nor2 << endl;
+            cout << "        ---> " << C3Nor2 << endl;
+            cout << "        ---> " << C5Nor2 << endl;
+            cout << "***** Norton Antivirus Product Key 2021:" << endl;
+            cout << "        ---> " << C1Nor3 << endl;
+            cout << "        ---> " << C2Nor3 << endl;
+            cout << "        ---> " << C3Nor3 << endl;
+            cout << "        ---> " << C5Nor3 << endl;
+            cout << "        ---> " << C6Nor3 << endl;
+            cout << "***** Norton Security Deluxe Key (90 days)" << endl;
+            cout << "        ---> " << C1Nor4 << endl;
+            cout << "        ---> " << C2Nor4 << endl;
+            cout << "        ---> " << C3Nor4 << endl;
+            cout << "        ---> " << C5Nor4 << endl;
+            cout << "        ---> " << C6Nor4 << endl;
+            cout << "        ---> " << C7Nor4 << endl;
+            cout << "        ---> " << C8Nor4 << endl;
+            cout << "        ---> " << C9Nor4 << endl;
+            cout << "        ---> " << C10Nor4 << endl;
+            break;
+        case 97:
+            borrarTerm();
+            cout << "==========================================================" << endl;
+            cout << "=====    ***        Version: DEMO (1.0.0)       ***   ====" << endl;
+            cout << "==========================================================" << endl;
+            break;
+        case 99: break;  
+        case 98: 
+            borrarTerm();
+            cout << "\n\n\n\n\n\n\n\n\n\n\n" << endl;
+            cout << " **** THC  Explosion " << endl;
+            cout << " **** Beer Effects   "  << endl;  
+            cout << " ** x]  All the content of this machine is extracted from public web pages." << endl;
+            cout << " ** x]  Commercial use prohibited" << endl;
+            cout << "\n\n\n\n\n\n\n\n\n\n\n" << endl;
+
+            
+            break;
+    
+
+                   
+                      
+                    
+                   
+
+    }
+}
+
+
+
+
+
+
+
